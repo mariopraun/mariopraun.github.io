@@ -28,10 +28,10 @@ function setLanguage(lang) {
     document.getElementById('btn-en').classList.toggle('active', lang === 'en');
     
     //Translation EN/PT
+    document.getElementById('theme-toggle').textContent = lang === 'pt' ? 'Tema Claro|Tema Escuro' : 'Light Theme| Dark Theme';
     document.getElementById('section-title').textContent = lang === 'pt' ? 'Repositórios' : 'Repositories';
-    document.getElementById('profilen-subtitle').textContent = lang === 'pt' ? 'Desenvolvedor Freelancer | Sound Designer' : 'Freelance Developer | Sound Designer';
-    document.getElementById('profile-bio').textContent = lang === 'pt' ? 'Soluções em análise de dados, infraestrutura de redes, desenvolvimento de jogos e software' : 'Solutions for data analysis, network infrastructure, game development, and software.';
-    document.getElementById('section-title').textContent = lang === 'pt' ? 'Repositórios' : 'Repositories';
+    document.getElementById('subtitle').textContent = lang === 'pt' ? 'Desenvolvedor Freelancer | Sound Designer' : 'Freelance Developer | Sound Designer';
+    document.getElementById('bio').textContent = lang === 'pt' ? 'Soluções em análise de dados, infraestrutura de redes, desenvolvimento de jogos e software' : 'Solutions for data analysis, network infrastructure, game development, and software.';
     document.getElementById('tab-all').textContent = lang === 'pt' ? 'Todos' : 'All';
     document.getElementById('tab-sound-design').textContent = 'Sound Design';
     document.getElementById('tab-ds').textContent = lang === 'pt' ? 'Ciência de Dados' : 'Data Science';
