@@ -7,53 +7,17 @@ const projects = [
 
 /*{
 
-define card's structure for each project(categories: ds, redes, game, software, sound-design)
+defines card's structure for each project(categories: ds, redes, game, software, sound-design). Tags shall be used for Stack/Tools/Skills/etc
 
-title: 'ds-churn-prediction',
-category: 'ds',
-desc_pt: 'Machine Learning Model for customer attrition prediction.',
-desc_en: 'Machine Learning model predicting customer churn.',
- tags: ['Python', 'XGBoost', 'Pandas'],
+title: '',
+category: '',
+desc_pt: '',
+desc_en: '',
+tags: ['', '', ''],
 
-url: 'https://github.com/seu-usuario/ds-churn-prediction'
-
-},
-
-{
-
-title: 'net-packet-inspector',
- category: 'redes',
-desc_pt: 'Analisador de pacotes de rede leve em CLI para inspeção de IP/TCP',
-desc_en: 'Lightweight CLI network packet analyzer for IP/TCP inspection.',
-tags: ['Python', 'Sockets', 'CLI'],
-
-url: 'https://github.com/seu-usuario/net-packet-inspector'
+url: ''
 
 },
-
-{
-
-title: 'game-cyberpulse-2d',
- category: 'game',
-desc_pt: 'Plataforma 2D desenvolvido em Godot com design sonoro autoral.',
-desc_en: '2D platformer created with Godot using unique sound design.',
-tags: ['Godot', 'GDScript', 'FMOD'],
-
-url: 'https://github.com/seu-usuario/game-cyberpulse-2d'
-
-},
-
-{
-
-title: 'sw-audio-synth-engine',
-category: 'software','sound-design',
-desc_pt: 'Audio modular synthesizer written in C++ with VST3 support.',
-title_en: 'Modular C++ audio synthesizer engine (VST3)',
-tags: ['C++', 'JUCE', 'DSP'],
-
-url: 'https://github.com/seu-usuario/sw-audio-synth-engine'
-
-}
 
 */];
 
@@ -67,7 +31,7 @@ function setLanguage(lang) {
 
     //Translation EN/PT
 
-    GetElementById('section-title').textContent = lang === 'pt' ? 'Repositórios' : 'Repositories';
+    getElementById('section-title').textContent = lang === 'pt' ? 'Repositórios' : 'Repositories';
 
     renderProjects();
 
