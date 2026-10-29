@@ -1,16 +1,32 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**mariopraun/mariopraun** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Mario H. Praun - Portfólio
 
-Here are some ideas to get you started:
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+##Sobre esse projeto
+Landing page de um portfólio pessoal prezando performance e uma estética minimalista, evitando as tendências maximalistas por muitas vezes desnecessárias se seu foco não for Web Design ou se a página não for criada inteiramente por IA(não condeno o uso moderado).
+
+##O que esperar desse projeto?
+No momento, não muito. O objetivo é, ao criar repositórios públicos, adicionar categorias ao mesmos para que sejam filtrados pelos tópicos presentes por meio dos botões/guias presentes na página.
+
+##Funcionalidades
+  - Alternância entre os principais idiomas utilizados diretamente na interface.
+  - Suporte a um tema escuro e um claro.
+  - Organização dinâmica dos projetos de acordo com filtros de classificação por área de atuação.
+  - Uso de tecnologias web nativas, evitando builds e mantendo uma performance adequada.
+
+##Stack
+  - HTML5
+  - CSS3
+  - JavaScript(Vanilla)
+  - Github Pages
+
+##Possíveis alterações futuras
+  - Alteração do esquema de cores.
+  - Adição dos cards de repositórios.
+  - Possível inclusão de API, Widget ou alguma outra alternativa para a tradução automática da página mediante necessidade(considerar riscos de segurança e performance).
+
+  - ---
