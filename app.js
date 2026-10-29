@@ -66,7 +66,7 @@ function renderProjects() {
         card.innerHTML = `
             <h3 class = "repo-title">'${ p.title }</h3>
             <p class = "repo-desc">${currentLang === 'pt' ? p.desc_pt : p.desc_en }</p>
-            <div class="tags-list">${p.tags.map(t => $, { t }).join('')}
+            <div class="tags-list">${p.tags.map(`span class="tag">{t}</span`).join('')}
             </div>
             `;
         grid.appendChild(card);
