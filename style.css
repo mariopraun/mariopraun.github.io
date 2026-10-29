@@ -8,11 +8,11 @@
 
 --border-color: #27272a;
 
---text-main: #f4f4f5;
+--text-main: #bb581b;
 
 --text-muted: #a1a1aa;
 
---accent-color: #10b981;
+--accent-color: #964513;
 
 }
 
@@ -24,9 +24,9 @@ body.light-theme {
 
 --border-color: #e4e4e7;
 
---text-main: #18181b;
+--text-main: #bb581b;
 
---text-muted: #71717a;
+--text-muted: #964513;
 
 }
 
