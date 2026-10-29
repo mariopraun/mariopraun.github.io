@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title> Portfolio - Mario H Praun</title>
+
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body class="dark-theme">
+
+<!-- Top Bar -->
+
+<header class="top-header">
+
+<div class="lang-switcher">
+
+<button id="btn-pt" class="active" onclick="setLanguage('pt')">PT-BR</button>
+
+<button id="btn-en" onclick="setLanguage('en')">EN</button>
+
+</div>
+
+<div class="right-controls">
+
+<button id="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme" aria-pressed="false">Tema Claro|Tema Escuro</button>
+
+</div>
+
+</header>
+
+<main class="container">
+
+<!-- Hero -->
+
+<section class="hero-section">
+
+<h1 id="hero-title">Mario Hugo Praun</h1>
+
+<p id="subtitle" class="subtitle">Desenvolvedor Freelancer / Sound Designer</p>
+
+<p id="bio" class="bio">Soluções em análise de dados, infraestrutura de redes, desenvolvimento de jogos e software.</p>
+
+<div class="social-links">
+
+<a href="https://mariopraun-github.io" target="_blank" rel="noopener noreferrer">GitHub</a>
+<span class="separator">|</span>
+
+<a href="https://linkedin.com/in/mario-hugo-praun" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+<span class="separator">|</span>
+
+<a href="mailto:praun.mario@gmail.com">E-mail</a>
+<span class="separator">|</span>
+
+</div>
+
+</section>
+
+<hr class="divider" />
+
+
+<section>
+
+<h2 id="section-title">Repositórios</h2>
+
+
+<div class="category-tabs">
+
+<button type="button" class="tab-btn active" onclick="filterCategory('all')" id="tab-all">Todos</button>
+<span class="separator">|</span>
+
+<button type="button" class="tab-btn" onclick="filterCategory('sound-design')" id="tab-sound-design">Sound Design</button>
+<span class="separator">|</span>
+
+<button type="button" class="tab-btn" onclick="filterCategory('ds')" id="tab-ds">Ciência de Dados</button>
+<span class="separator">|</span>
+
+<button type="button" class="tab-btn" onclick="filterCategory('redes')" id="tab-redes">Redes</button>
+<span class="separator">|</span>
+
+<button type="button" class="tab-btn" onclick="filterCategory('game')" id="tab-game">Desenvolvimento de Jogos</button>
+<span class="separator">|</span>
+
+<button type="button" class="tab-btn" onclick="filterCategory('software')" id="tab-software">Software</button>
+
+</div>
+
+<!-- Projects -->
+
+<div id="projects-grid" class="projects-grid"></div>
+
+</section>
+
+</main>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
